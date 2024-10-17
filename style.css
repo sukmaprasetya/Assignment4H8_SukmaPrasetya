@@ -1,0 +1,29 @@
+.profile {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+.profile-detail {
+    display: grid;
+    grid-template-columns: 150px 10px auto; 
+    align-items: center; 
+}
+
+.colon {
+    text-align: center; 
+    display: inline-block;
+    width: 100%;
+}
+.profile-info h2, .profile-info p {
+    margin: 0;
+}
+.form-section {
+    display: none;
+}
